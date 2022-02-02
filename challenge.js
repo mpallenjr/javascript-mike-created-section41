@@ -286,6 +286,7 @@ checkWinner(avgDolphins,avgKoalas);
 // 4. Bonus:Createanarray'total'containingthetotalvalues,sothebill+tip Test data: 125, 555 and 44
 // Hint: Remember that an array needs a value in each position, and that value can actually be the returned value of a function! So you can just call a function as array values (so don't store the tip values in separate variables first, but right in the new array) 😉
 // GOOD LUCK 😀
+/*
 let tip;
 let bills = [125,555,44];
 let tips = [calcTip(125),calcTip(555),calcTip(44)];
@@ -304,3 +305,10 @@ console.log(calcTip(20))
 console.log(bills)
 console.log(tips)
 console.log(totals)
+//video solution - the only note i'd like to add is the function used in the example. Instead of using an if statement like mine, he used a ternary operator. The outcomes of my code are correct.
+
+
+const caclTip = function (bill) {
+  return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+}
+*/
